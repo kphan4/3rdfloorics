@@ -1,0 +1,48 @@
+body, html { width: 100%; height: 100%; margin: 0; padding: 0; }
+
+.header-toolbar
+{
+	width: 100%;
+	border: 0px solid black;
+	height: 10%;
+	position: relative;
+	display: table;
+	table-layout: fixed;
+}
+
+.toolbar 
+{
+	display: table;
+	display: table-cell;
+	top: 0;
+	bottom: 0;
+	border:2px solid gray;
+	height: 100%;
+}
+
+.homebutton
+{
+	/*-webkit-box-sizing: border-box;*/ /* Safari/Chrome, other WebKit */
+    /*-moz-box-sizing: border-box; */   /* Firefox, other Gecko */
+    /*box-sizing: border-box;  */       /* Opera/IE 8+ */
+	text-align: center;
+	width: 10%;
+	/*height: 100%;*/
+}
+
+.searchbar
+{
+	width: 69%;
+}
+
+.infobar
+{
+	width: 7%;
+	vertical-align: middle;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+	text-align: center;
+}
+
+
+
